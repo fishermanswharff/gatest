@@ -1,0 +1,32 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"ant",
+				"stage",
+				"-f",
+				"${project_path:${folder}}/build/build.xml"
+			],
+			"name": "GA Test Build",
+			"selector": "source.java"
+		},
+		{
+			"cmd":
+			[
+				"ant",
+				"release",
+				"-f",
+				"${project_path:${folder}}/build/build.xml"
+			],
+			"name": "GA Test Release Build",
+			"selector": "source.java"
+		}
+	],
+	"folders":
+	[
+		{"path": "/Users/jason/Documents/UI"},
+		{"path": "/Users/jason/Documents/UI/ga-test"}
+	]
+}

@@ -1,0 +1,119 @@
+@import "elements.less";
+@import "retina.less";
+@import "../variables/variables.less";
+
+.defaults()
+{
+  position:relative;
+  margin:0px; 
+  padding:0px; 
+  font-family: @serif-font;
+}
+
+.position(@background-x:0px,@background-y:0px)
+{
+  background-position: @background-x @background-y;
+  background-position-x: @background-x;
+  background-position-y: @background-y;
+  background-repeat:no-repeat;
+}
+
+.screen(@url:"")
+{
+    .retina-background(@url,996px,624px);
+    background-repeat:no-repeat;
+    width:@frame-width;
+    height:@frame-height;
+}
+
+.div-centered (@marginTop:0px, @marginBottom:0px) 
+{
+  margin: @marginTop auto @marginBottom auto;
+}
+
+.hidden ()
+{
+   display:none;
+}
+
+.button(@color:@brown-accent)
+{
+  display:inline-block;  
+  padding:2px;
+  color:@button-text-color;
+  text-decoration:none;
+  background-color:@color;
+  min-width:80px;
+  text-align:center;
+  .rounded(10px);
+  .inner-glow(0, 3px, 2px,0.4);
+  
+  &:hover {color:white;}
+}
+.arrow(@positionX:0px,@positionY:0px)
+{
+  display:block;  
+  width:50px;
+  height: 56px;
+  text-indent: -9999px;
+  
+  background: url('../../images/css/sprites.png') no-repeat @positionX @positionY;
+  
+  &:hover {color:white;}
+}
+
+.form-input(@border-color:@input-border-color,@background-color:@input-background-color,@border-thickness:2px,@border-radius:4px)
+{
+  border: @border-thickness solid @border-color; 
+  padding: 5px;
+  border-radius:@border-radius;
+  background-color: @background-color;
+}
+
+.text-shadow(@offsetX:0px,@offsetY:0px,@blur:3px,@color:#000)
+{
+    text-shadow: @offsetX @offsetY @blur @color;
+    filter: dropshadow(color=@color, offx=@offsetX, offy=@offsetY);
+}
+
+.keyframes (@name, @from, @to, @vendor:"", @bind:"") {
+  @keyf: ~"@{bind}@@{vendor}keyframes @{name} { `'\n'`from ";
+  @{keyf} {
+      .from(@name,@from);
+        }
+      to {
+        .to(@name,@to);
+      }
+}
+
+.animation-keyframes-novendor (@name, @from, @to, @anim-selector) {
+  .keyframes (@name, @from, @to);
+  @anim: ~"} `'\n'`.@{anim-selector}";
+  @{anim} {
+    animation-name:@name;
+  }
+}
+
+.animation-keyframes (@name, @from, @to, @anim-selector) {
+  @bind: "} `'\n'`";
+  .keyframes (@name, @from, @to, "-moz-");
+  .keyframes (@name, @from, @to, "-webkit-", @bind);
+  .keyframes (@name, @from, @to, "-o-", @bind);
+  .keyframes (@name, @from, @to, "-ms-", @bind);
+  .keyframes (@name, @from, @to, "", @bind);
+  @anim: ~"} `'\n'`.@{anim-selector}";
+  @{anim} {
+    -moz-animation: @name;
+    -webkit-animation: @name;
+    -o-animation: @name;
+    -ms-animation: @name;
+    animation: @name;
+  }
+}
+
+.from (colors, @color) {
+  color: @color;
+}
+.to (colors, @color) {
+  color: @color;
+}

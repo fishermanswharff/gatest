@@ -1,0 +1,1172 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"ff",
+				"ff-meta-web-pro"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"distrib",
+				"distribute"
+			],
+			[
+				"end",
+				"end"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"row",
+				"row"
+			],
+			[
+				"quer",
+				"querySelector"
+			],
+			[
+				"true",
+				"true"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"mobile",
+				"mobile_menu"
+			],
+			[
+				"new",
+				"newNavHeight"
+			],
+			[
+				"window",
+				"windowSize"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"AM",
+				"AMail"
+			],
+			[
+				"titleCase",
+				"titleCaseFilter"
+			],
+			[
+				"total",
+				"totalCart"
+			],
+			[
+				"Cart",
+				"CartController"
+			],
+			[
+				"Restaurant",
+				"RestaurantTableController"
+			],
+			[
+				"bacg",
+				"background-color"
+			],
+			[
+				"marin",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"h",
+				"html"
+			],
+			[
+				"vi",
+				"visibility"
+			],
+			[
+				"c",
+				"captions"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"backgroud",
+				"background-color"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"l",
+				"line-height"
+			],
+			[
+				"sty",
+				"stylesheet"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"requ",
+				"requireMain"
+			],
+			[
+				"require",
+				"requireMain"
+			],
+			[
+				"as",
+				"assetAttr"
+			],
+			[
+				"path",
+				"pathList"
+			],
+			[
+				"con",
+				"configuration"
+			],
+			[
+				"inser",
+				"insertionChild"
+			],
+			[
+				"tex",
+				"textContent"
+			],
+			[
+				"child",
+				"childElementCount"
+			],
+			[
+				"ch",
+				"catch"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"de",
+				"delete"
+			],
+			[
+				"NS_",
+				"NS_DELETION"
+			],
+			[
+				"NS",
+				"NS_INSERTION"
+			],
+			[
+				"appl",
+				"applyOverrideToElement"
+			],
+			[
+				"att",
+				"attributes"
+			],
+			[
+				"a",
+				"attribute"
+			],
+			[
+				"get",
+				"getAttributeNodeNS"
+			],
+			[
+				"app",
+				"applyOverrideToElement"
+			],
+			[
+				"chid",
+				"children"
+			],
+			[
+				"cl",
+				"childNodes"
+			],
+			[
+				"o",
+				"overrideXML"
+			],
+			[
+				"ov",
+				"overrideXML"
+			],
+			[
+				"pro",
+				"processOverrides"
+			],
+			[
+				"over",
+				"overrideXML"
+			],
+			[
+				"ove",
+				"override"
+			],
+			[
+				"Cours",
+				"CoursewareController"
+			],
+			[
+				"config",
+				"configuration"
+			],
+			[
+				"from",
+				"fromParams"
+			],
+			[
+				"to",
+				"toParams"
+			],
+			[
+				"coten",
+				"content_root"
+			],
+			[
+				"cont",
+				"content_root"
+			],
+			[
+				"confi",
+				"configuration"
+			],
+			[
+				"cone",
+				"content_root"
+			],
+			[
+				"state",
+				"stateProvider"
+			],
+			[
+				"root",
+				"rootScope"
+			],
+			[
+				"page",
+				"pageID"
+			],
+			[
+				"pr",
+				"promise"
+			],
+			[
+				"content",
+				"contentPath"
+			],
+			[
+				"at",
+				"attributes"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"lo",
+				"localName"
+			],
+			[
+				"n",
+				"namespaceURI"
+			],
+			[
+				"attr",
+				"attributes"
+			],
+			[
+				"node",
+				"nodeType"
+			],
+			[
+				"name",
+				"namespaceURI"
+			],
+			[
+				"m",
+				"manifest"
+			],
+			[
+				"chil",
+				"children"
+			],
+			[
+				"getE",
+				"getElementsByTagName"
+			],
+			[
+				"N",
+				"NS_INSERTION"
+			],
+			[
+				"s",
+				"scope"
+			],
+			[
+				"ne",
+				"nextParams"
+			],
+			[
+				"pA",
+				"pageID"
+			],
+			[
+				"tr",
+				"transitionComplete"
+			],
+			[
+				"next",
+				"nextParams"
+			],
+			[
+				"nex",
+				"nextParams"
+			],
+			[
+				"toS",
+				"toParams"
+			],
+			[
+				"sta",
+				"stateParams"
+			],
+			[
+				"st",
+				"stateParams"
+			],
+			[
+				"load",
+				"loadScreen"
+			],
+			[
+				"getP",
+				"getPageLookup"
+			],
+			[
+				"modul",
+				"modules"
+			],
+			[
+				"mod",
+				"modules"
+			],
+			[
+				"cn",
+				"console"
+			],
+			[
+				"unit",
+				"unit_pages"
+			],
+			[
+				"p",
+				"pages"
+			],
+			[
+				"TG1",
+				"TG1Controller"
+			],
+			[
+				"TG",
+				"TG1Controller"
+			],
+			[
+				"scre",
+				"screen-container"
+			],
+			[
+				"templa",
+				"templateUrl"
+			],
+			[
+				"angula",
+				"angular-ui-router"
+			],
+			[
+				"Course",
+				"CourseController"
+			],
+			[
+				"contr",
+				"controllers"
+			],
+			[
+				"w",
+				"world"
+			],
+			[
+				"conte",
+				"context-challenge"
+			],
+			[
+				"ad",
+				"addFruit"
+			],
+			[
+				"cur",
+				"currentChallenge"
+			],
+			[
+				"queue",
+				"queueClip"
+			],
+			[
+				"butt",
+				"button-container"
+			],
+			[
+				"puzzles",
+				"puzzles-pipes"
+			],
+			[
+				"add",
+				"addItem"
+			],
+			[
+				"d",
+				"document"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "gaTest.sublime-project",
+			"settings":
+			{
+				"buffer_size": 480,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/html/index.html",
+			"settings":
+			{
+				"buffer_size": 2151,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "build/build.xml",
+			"settings":
+			{
+				"buffer_size": 1933,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "build/build.props",
+			"settings":
+			{
+				"buffer_size": 881,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"snippe",
+				"Snippet: html"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"",
+				"Package Control: Remove Package"
+			],
+			[
+				"Pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: d",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 503.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jason/Documents/UI/ga-test/build/build.props",
+		"/Users/jason/Documents/UI/ga-test/build/build.props.template",
+		"/Users/jason/Documents/UI/ga-test/gaTest.sublime-workspace",
+		"/Users/jason/Documents/UI/javascript/AngularJS-lynda2/js/data.json",
+		"/Users/jason/Documents/UI/javascript/AngularJS-lynda2/css/main.css",
+		"/Users/jason/Documents/UI/javascript/AngularJS-lynda2/js/app/app.js",
+		"/Users/jason/Documents/UI/javascript/AngularJS-lynda2/js/app/controllers.js",
+		"/Users/jason/Documents/UI/javascript/AngularJS-lynda2/css/course.css",
+		"/Users/jason/Documents/UI/javascript/AngularJS-lynda2/index.html",
+		"/Users/jason/Documents/UI/javascript/AngularJS-lynda2/partials/list.html",
+		"/Users/jason/Documents/UI/javascript/AngularJS-lynda2/partials/details.html",
+		"/Users/jason/Documents/UI/javascript/AngularJS-lynda2/partials/chapter1.html",
+		"/Users/jason/Documents/UI/javascript/AngularJS-lynda2/js/app/Controllers.js",
+		"/Users/jason/Documents/UI/javascript/AngularJS-lynda2/partials/chapter3.html",
+		"/Users/jason/Documents/UI/javascript/AngularJS-lynda2/index2.html",
+		"/Users/jason/Documents/UI/javascript/AngularJS-lynda2/js/app/ListController.js",
+		"/Users/jason/Documents/UI/javascript/AngularJS-lynda2/Exercise Files/03_01/finished/angular/js/controllers.js",
+		"/Users/jason/Documents/UI/javascript/AngularJS-lynda2/Exercise Files/03_01/finished/angular/index.html",
+		"/Users/jason/Documents/UI/css/css-tricks/float-form-labels.html",
+		"/Users/jason/Documents/UI/css/css-tricks/styles.css",
+		"/Users/jason/Documents/UI/css/page-layouts/index.html",
+		"/Users/jason/Documents/UI/css/responsive-web-exp/index.html",
+		"/Users/jason/Documents/UI/css/responsive-web-exp/css/screen_layout_large.css",
+		"/Users/jason/Documents/UI/css/responsive-web-exp/css/main.css",
+		"/Users/jason/Documents/UI/css/styling-forms/css/app/styles.css",
+		"/Users/jason/Documents/UI/css/styling-forms/ExerciseFiles/codesnippets.txt",
+		"/Users/jason/Documents/UI/css/styling-forms/partials/chapter3.html",
+		"/Users/jason/Documents/UI/css/styling-forms/partials/chapter2.html",
+		"/Users/jason/Documents/UI/css/styling-forms/partials/chapter1.html",
+		"/Users/jason/Documents/UI/css/styling-forms/ExerciseFiles/Starting Points/03-02/Working Folder/index.html",
+		"/Users/jason/Documents/UI/css/styling-forms/index.html",
+		"/Users/jason/Documents/UI/css/styling-forms/ExerciseFiles/Starting Points/03-01/Working Folder/index.html",
+		"/Users/jason/Documents/UI/css/styling-forms/ExerciseFiles/Starting Points/02-08/Working Folder/index.html",
+		"/Users/jason/Documents/UI/css/styling-forms/ExerciseFiles/Starting Points/02-07/Working Folder/index.html",
+		"/Users/jason/Documents/UI/css/styling-forms/ExerciseFiles/Starting Points/02-06/Working Folder/index.html",
+		"/Users/jason/Documents/UI/javascript/AngularJS-OReilly/partials/chapter2.html",
+		"/Users/jason/Documents/UI/css/Flexbox/index.html",
+		"/Users/jason/Documents/UI/css/styling-forms/ExerciseFiles/Starting Points/02-05/Working Folder/index.html",
+		"/Users/jason/Documents/UI/css/styling-forms/ExerciseFiles/Starting Points/02-05/Working Folder/mystyle.css",
+		"/Users/jason/Documents/thinq/Projects/Website2/.project/divi-tqi.sublime-project",
+		"/Users/jason/Documents/UI/css/styling-forms/ExerciseFiles/Starting Points/02-04/Working Folder/index.html",
+		"/Users/jason/Documents/UI/css/styling-forms/.htaccess.css",
+		"/Users/jason/Documents/UI/css/styling-forms/ExerciseFiles/Starting Points/02-04/Working Folder/mystyle.css",
+		"/Users/jason/Documents/UI/css/styling-forms/ExerciseFiles/Starting Points/01-03/Working Folder/index.html",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/partials/chapter5.html",
+		"/Users/jason/Documents/UI/css/styling-forms/js/app/MainNav.js",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/partials/chapter1.html",
+		"/Users/jason/Documents/UI/css/styling-forms/partials/chapter6.html",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/index.html",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/lynda-files/ExampleSnippets.txt",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/lynda-files/05_examples/ExploreCalifornia/contact.htm",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/css/app/styles.css",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/lynda-files/05_examples/ExploreCalifornia/contact_finished.htm",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/js/app/FormScript.js",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/partials/chapter4.html",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/partials/chapter3.html",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/partials/chapter2.html",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/lynda-files/02_newattrs/css_styling_finished.htm",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/js/app/MainNav.js",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/js/app/placeholder.js",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/js/app/TextSelector.js",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/lynda-files/02_newattrs/selection_start.html",
+		"/Users/jason/Documents/UI/css/Flexbox/lynda-files/Chapter_05/05_01/resources.htm",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/lynda-files/placeholder.js",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/lynda-files/SimpleFormDemo.html",
+		"/Users/jason/Documents/UI/css/Flexbox/css/flexbox.css",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/lynda-files/02_newattrs/autocomplete_finished.html",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/lynda-files/05_examples/MobileForms/mobileforms_finished.html",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/lynda-files/common.css",
+		"/Users/jason/Documents/UI/css/Flexbox/css/main.css",
+		"/Users/jason/Documents/UI/css/Flexbox/lynda-files/Chapter_04/04_04/finished_files/_css/flexbox.css",
+		"/Users/jason/Documents/UI/css/Flexbox/lynda-files/Chapter_04/04_04/finished_files/_css/main.css",
+		"/Users/jason/Documents/UI/css/Flexbox/lynda-files/Chapter_04/04_04/_css/flexbox.css",
+		"/Users/jason/Documents/UI/html/HTML5-Forms/css/styles.css",
+		"/Users/jason/Documents/UI/javascript/AngularJS-OReilly/index.html",
+		"/Users/jason/Documents/UI/css/Flexbox/lynda-files/Chapter_04/04_04/index.html",
+		"/Users/jason/Documents/UI/css/Flexbox/lynda-files/Chapter_04/04_03/nesting.htm",
+		"/Users/jason/Documents/UI/css/Flexbox/lynda-files/Chapter_03/03_06/_css/flexbox.css",
+		"/Users/jason/Documents/UI/css/Flexbox/lynda-files/Chapter_03/03_06/finished_files/_css/flexbox.css",
+		"/Users/jason/Documents/UI/css/Flexbox/css/fluid_grid.css",
+		"/Users/jason/Documents/UI/css/Flexbox/lynda-files/Chapter_03/03_06/index.html",
+		"/Users/jason/Documents/UI/css/Flexbox/Lynda Exercise Files/Chapter_01/01_03/_css/base.css",
+		"/Users/jason/Documents/UI/css/Flexbox/lynda-files/Chapter_03/03_01/main.htm",
+		"/Users/jason/Documents/UI/css/Flexbox/lynda-files/Chapter_02/02_04/_css/flexbox.css",
+		"/Users/jason/Documents/UI/libs/bootstrap/cti-spring-2014.html",
+		"/Users/jason/Documents/UI/css/Flexbox/Lynda Exercise Files/Chapter_02/02_04/_css/flexbox.css",
+		"/Users/jason/Documents/UI/css/Flexbox/Lynda Exercise Files/Chapter_02/02_04/index.html",
+		"/Users/jason/Documents/UI/css/Flexbox/Lynda Exercise Files/Chapter_02/02_03/ratios.htm",
+		"/Users/jason/Documents/UI/html/HTML5 Mobile Boilerplate/index.html",
+		"/Users/jason/Documents/UI/css/Flexbox/Lynda Exercise Files/Chapter_01/01_07/index.html",
+		"/Users/jason/Documents/UI/javascript/revealjs-lynda/css/theme/ray.css",
+		"/Users/jason/Documents/UI/javascript/revealjs-lynda/index.html",
+		"/Users/jason/Documents/UI/javascript/revealjs-lynda/css/reveal.css",
+		"/Users/jason/Documents/UI/javascript/revealjs-lynda/template.html",
+		"/Users/jason/Documents/UI/javascript/revealjs-lynda/original.html",
+		"/Users/jason/Documents/UI/javascript/revealjs-lynda/js/reveal.js",
+		"/Users/jason/Documents/UI/javascript/revealjs-lynda/test/test.html",
+		"/Users/jason/Documents/UI/javascript/revealjs-lynda/css/theme/source/beige.scss",
+		"/Users/jason/Documents/UI/javascript/revealjs-lynda/css/reveal.min.css",
+		"/Users/jason/Documents/UI/javascript/revealjs-lynda/css/print/paper.css",
+		"/Users/jason/Documents/UI/javascript/revealjs-lynda/css/print/pdf.css",
+		"/Users/jason/Documents/UI/libs/reveal.js-master/index.html",
+		"/Users/jason/Documents/UI/javascript/revealjs-lynda/Exercise Files/01_03/working folder/reveal/index.html",
+		"/Users/jason/Documents/UI/html/HTML5 Boilerplate/index.html",
+		"/Users/jason/Documents/UI/javascript/revealjs-lynda/Exercise Files/01_02/finished/reveal/index.html",
+		"/Users/jason/Documents/UI/javascript/revealjs-lynda/chapter3.html",
+		"/Users/jason/Documents/UI/css/page-layouts/css/custom.css",
+		"/Users/jason/Documents/UI/css/CSS Fundamentals/fundamentals.css",
+		"/Users/jason/Documents/UI/css/page-layouts/Exercise Files/Chapter_01/01_01/box-model.htm",
+		"/Users/jason/Documents/UI/html/HTML5 Boilerplate/js/plugins.js",
+		"/Users/jason/Documents/UI/html/HTML5 Boilerplate/css/normalize.css",
+		"/Users/jason/Documents/UI/libs/bootstrap-3.0.2/less/variables.less",
+		"/Users/jason/Documents/UI/libs/bootstrap-3.0.2/less/grid.less",
+		"/Users/jason/Documents/UI/libs/bootstrap-3.0.2/less/mixins.less",
+		"/Users/jason/Documents/UI/libs/bootstrap-3.0.2/less/responsive-utilities.less",
+		"/Users/jason/Documents/UI/libs/bootstrap-3.0.2/less/wells.less",
+		"/Users/jason/Documents/UI/html/dreamweaver-getting-started/css/tablet.css",
+		"/Users/jason/Documents/UI/html/Dreamweaver CS5 Getting Started/getting-started.html",
+		"/Users/jason/Documents/UI/html/Dreamweaver CS5 Getting Started/css/tablet.css",
+		"/Users/jason/Documents/UI/html/Dreamweaver CS5 Getting Started/css/desktop.css",
+		"/Users/jason/Documents/UI/html/HTML5 Boilerplate/css/main.css",
+		"/Users/jason/Documents/UI/html/Dreamweaver CS5 Getting Started/css/phone.css",
+		"/Users/jason/Documents/UI/html/HTML Forms/css/improvedforms.css",
+		"/Users/jason/Documents/UI/html/HTML Forms/ContactGreenZebra.html",
+		"/Users/jason/Desktop/CTI-source.html",
+		"/Users/jason/Documents/UI/javascript/AngularJS-OReilly/partials/chapter4.html",
+		"/Users/jason/Documents/UI/javascript/AngularJS-OReilly/css/styles.css",
+		"/Users/jason/Documents/UI/html/HTML5-for-Flash-Developers/demo-blank.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"<open files>,/Users/jason/Documents/Center4SI/c4cp-web-portal/moodle/theme/t3courseware/less,/Users/jason/Documents/Center4SI/c4cp-web-portal/moodle/theme/t3courseware/less",
+			"<open files>,/Users/jason/Documents/Center4SI/c4cp-web-portal/moodle/theme/t3courseware/less",
+			"<open files>",
+			"<open files>,/Users/jason/Documents/Center4SI/Omega-SnowWhite/app",
+			"<open files>",
+			"/Users/jason/Documents/Center4SI/Omega-SnowWhite/app",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"MainController",
+			"label",
+			"width",
+			"search.png",
+			"input type",
+			"html5",
+			"TYPEKIT",
+			"_fonts",
+			"event",
+			"li",
+			"none",
+			"what",
+			"screen_layout_small",
+			"required",
+			"ng-app",
+			".course-content",
+			"#region-bs-main",
+			"role=main",
+			"#region-bs-main",
+			"muted",
+			"iss",
+			"background-color",
+			".dropdown",
+			"1070px",
+			"padding",
+			"mediaplayer",
+			"@nav-link-padding",
+			".clearfix",
+			"						\n",
+			"Defining",
+			"@body-font",
+			"twitter",
+			"samsung",
+			"		 \n",
+			"Deirdre Tomlinson",
+			";\n",
+			"just",
+			"		",
+			"		\n",
+			"html",
+			"type=\"component\"",
+			"list",
+			"\\s+",
+			"\\n",
+			"MainController",
+			"define =",
+			"define",
+			"glyph",
+			"img/",
+			"super+shift+",
+			"super+shift+1",
+			"angular",
+			"configura",
+			"angular",
+			"ui router",
+			"getConf",
+			"tra",
+			"activ",
+			"ui router",
+			"css",
+			"angular",
+			"ui router",
+			"angularjs",
+			"())",
+			"generate",
+			"__text",
+			"html",
+			"__cdata",
+			"cdata",
+			"jquery",
+			"service",
+			"use",
+			"$http",
+			"angularjs",
+			"css3",
+			"hide(",
+			"MainCtrl",
+			"defaultReq",
+			"what happens now?",
+			"depend",
+			"complete",
+			"currentT",
+			"currentt",
+			"showCr",
+			"directions",
+			"stops",
+			"button",
+			"easeljs",
+			"trace",
+			"^(.*)$",
+			",",
+			"delete",
+			"stageClickHandler",
+			"peddler",
+			"images/Pipes/spritesheet/pipes_animation-easeljs.png",
+			"CAST_game_growdome_room5_anim.png",
+			"iframe"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"fonts",
+			"",
+			"type=\"module\"",
+			"last",
+			"  ",
+			" ",
+			"html",
+			"<component id=\"\" class=\"$1\" x=\"0\" y=\"0\"/>",
+			"\\n",
+			"images/Pipes/spritesheet/pipes_animation-easljs.png",
+			"images/Pipes/spritesheet/pipes_animation-easeljs.png"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gaTest.sublime-project",
+					"settings":
+					{
+						"buffer_size": 480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/html/index.html",
+					"settings":
+					{
+						"buffer_size": 2151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								817,
+								817
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "build/build.xml",
+					"settings":
+					{
+						"buffer_size": 1933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "build/build.props",
+					"settings":
+					{
+						"buffer_size": 881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								881,
+								881
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.414131541706,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"snippets",
+				"UI/html/HTML5 Graphics and Animation with Canvas/ExampleSnippets.txt"
+			],
+			[
+				"conte",
+				"src/client/js/classes/context.challenge.adventure.js"
+			],
+			[
+				"cotext",
+				"src/client/js/classes/context.challenge.adventure.js"
+			],
+			[
+				"adventr",
+				"www/xml/adventure.xml"
+			],
+			[
+				"adventurej",
+				"src/client/js/classes/adventure.js"
+			],
+			[
+				"pipes",
+				"src/client/js/classes/pipes.puzzles.adventure.js"
+			],
+			[
+				"udio",
+				"src/client/less/styles/udio.adventure.less"
+			],
+			[
+				"adven",
+				"src/client/js/classes/adventure.js"
+			],
+			[
+				"advent",
+				"src/client/xml/adventure.xml"
+			],
+			[
+				"ud",
+				"src/client/less/styles/udio.adventure.less"
+			],
+			[
+				"invent",
+				"src/client/js/classes/inventory.world.adventure.js"
+			],
+			[
+				"worl",
+				"src/client/js/classes/world.adventure.js"
+			],
+			[
+				"world",
+				"src/client/js/classes/world.adventure.js"
+			],
+			[
+				"sett",
+				"src/client/js/classes/settings.adventure.js"
+			],
+			[
+				"adv",
+				"src/client/xml/adventure.xml"
+			],
+			[
+				"xml",
+				"src/client/xml/adventure.xml"
+			],
+			[
+				"set",
+				"src/client/js/classes/settings.adventure.js"
+			],
+			[
+				"peddler.",
+				"src/client/js/classes/peddler.puzzles.adventure.js"
+			],
+			[
+				"",
+				"src/client/js/classes/pipes.puzzles.adventure.js"
+			],
+			[
+				"avit",
+				"src/client/js/classes/avitar.world.adventure.js"
+			],
+			[
+				"coursecon",
+				"src/xml/CourseContent.xml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 325.0,
+	"status_bar_visible": true
+}

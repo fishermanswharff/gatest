@@ -1,0 +1,18 @@
+########### ----- Project Variables ----- ###########
+PROJECT_DIRECTORY			= /Users/spencech/Thinq/Projects/Website
+STAGING_DIRECTORY			= /Users/spencech/Sites/thinq
+RELEASE_DIRECTORY			= ${PROJECT_DIRECTORY}/www
+CSS_OUTPUT_STAGING			= ${STAGING_DIRECTORY}/css/thinq
+
+########### ----- Compression Variables ----- ###########
+NODE_PATH				= /usr/local/bin
+LESSC					= /usr/local/bin/lessc
+BIN_DIR					= ${PROJECT_DIRECTORY}/bin
+EMS_COMPRESSOR			= ./ems-compressor.sh
+YUI_COMPRESSOR			= ${BIN_DIR}/yuicompressor-2.4.6/build/yuicompressor-2.4.6.jar
+COMPRESSOR_SOURCE_ROOT	= ${PROJECT_DIRECTORY}/src
+COMPRESSOR_CSS_ROOT		= ${STAGING_DIRECTORY}
+COMPRESSOR_SOURCE_FILE	= ${PROJECT_DIRECTORY}/src/html/index.html
+COMPRESSOR_OUTPUT_HTML	= ${RELEASE_DIRECTORY}/index.html 
+COMPRESSOR_OUTPUT_CSS	= ${RELEASE_DIRECTORY}/css/thinq/thinq.min.css
+COMPRESSOR_OUTPUT_JS	= ${RELEASE_DIRECTORY}/js/scripts/thinq.min.js

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="GA Test" basedir="." default="stage">
+	<property file="build.props"/>
+	<target name="stage" depends="less">    
+		<echo message="Copying client files to staging directory..."/>
+		<copy todir="${STAGING_DIRECTORY}">
+			<fileset dir="${PROJECT_DIRECTORY}/src/html"/>
+		</copy> 
+		<copy todir="${STAGING_DIRECTORY}/images">
+			<fileset dir="${PROJECT_DIRECTORY}/src/images"/>
+		</copy> 
+		<copy todir="${STAGING_DIRECTORY}/js">
+			<fileset dir="${PROJECT_DIRECTORY}/src/js"/> 
+		</copy>
+        <echo message="Staging complete"/>
+	</target> 
+	<target name="less">
+		<mkdir dir="${STAGING_DIRECTORY}/css/"/>
+		<echo message="Compiling LESS files..."/>
+		<apply executable="${LESSC}">
+			<env key="PATH" value="${env.PATH}:${NODE_PATH}" />
+			<fileset dir="${PROJECT_DIRECTORY}/src/less/styles" includes="*.less"/>
+			<redirector>
+				<outputmapper from="*.less" id="out" to="${CSS_OUTPUT_STAGING}/*.css" type="glob"/>
+			</redirector>	
+		</apply>
+		<echo message="LESS Compilation Complete"/>
+	</target>
+	
+    <target name="release"> 
+    	<echo message="Copying client files to release directory..."/>
+    	<copy todir="${RELEASE_DIRECTORY}/images">
+    		<fileset dir="${PROJECT_DIRECTORY}/src/images"/>
+    	</copy> 
+    	<copy todir="${RELEASE_DIRECTORY}/js">
+    		<fileset dir="${PROJECT_DIRECTORY}/src/js" excludes="**/thinq/"/> 
+    	</copy>  
+    	<exec dir="${PROJECT_DIRECTORY}/bin" vmlauncher="false" executable="/bin/bash">
+    		<arg line="${EMS_COMPRESSOR}
+    			${YUI_COMPRESSOR}
+    			${COMPRESSOR_SOURCE_ROOT}
+    			${RELEASE_DIRECTORY}
+    			${COMPRESSOR_SOURCE_FILE}
+    			${COMPRESSOR_OUTPUT_HTML}
+    			${COMPRESSOR_OUTPUT_CSS}
+    			${COMPRESSOR_OUTPUT_JS}
+    			${COMPRESSOR_CSS_ROOT}
+    			"/>
+    	</exec>
+    	
+        <echo message="Release complete... remember to commit your modifications to SVN and update the server!"/>
+	</target> 
+</project>
