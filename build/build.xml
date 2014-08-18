@@ -5,12 +5,18 @@
 		<echo message="Copying client files to staging directory..."/>
 		<copy todir="${STAGING_DIRECTORY}">
 			<fileset dir="${PROJECT_DIRECTORY}/src/html"/>
+		</copy>
+		<copy todir="${STAGING_DIRECTORY}/css">
+			<fileset dir="${PROJECT_DIRECTORY}/src/css"/>
 		</copy> 
 		<copy todir="${STAGING_DIRECTORY}/images">
 			<fileset dir="${PROJECT_DIRECTORY}/src/images"/>
 		</copy> 
 		<copy todir="${STAGING_DIRECTORY}/js">
 			<fileset dir="${PROJECT_DIRECTORY}/src/js"/> 
+		</copy>
+		<copy todir="${STAGING_DIRECTORY}/fonts">
+			<fileset dir="${PROJECT_DIRECTORY}/src/fonts"/> 
 		</copy>
         <echo message="Staging complete"/>
 	</target> 
@@ -21,7 +27,7 @@
 			<env key="PATH" value="${env.PATH}:${NODE_PATH}" />
 			<fileset dir="${PROJECT_DIRECTORY}/src/less/styles" includes="*.less"/>
 			<redirector>
-				<outputmapper from="*.less" id="out" to="${CSS_OUTPUT_STAGING}/*.css" type="glob"/>
+				<outputmapper from="*.less" id="out" to="${CSS_OUTPUT_STAGING}/main.css" type="glob"/>
 			</redirector>	
 		</apply>
 		<echo message="LESS Compilation Complete"/>
