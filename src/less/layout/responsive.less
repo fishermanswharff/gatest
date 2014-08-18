@@ -1,0 +1,131 @@
+/* ipad and tablets */
+@media screen and (max-width: 768px) {
+	
+	html {
+		body{
+			header {
+				div.centered {
+					div.contact-info{
+						left: 200px;
+						width: 250px;
+					}
+				}
+				div.resume-cta {
+					position: absolute;
+				}
+			}
+			div.timeline {}
+			div.thumbnail { 
+				position: relative;
+				padding: 0 0 20px 20px;
+				bottom: 0;
+				left: 0;
+			}
+			footer {
+				div.container_16 {
+					div.grid_8 {
+						width: 98%;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*phone sizes*/
+@media screen and (max-width: 570px) {
+	html {
+		body{
+			header {
+				max-height: 450px;
+				background-size: 100% 100px;
+				background-position: top left;
+				margin-bottom: 150px;
+				div.centered {
+					margin-bottom: 50px;
+					div.contact-info {
+						.defaults();
+						left: initial;
+						top: 50px;
+						h1 { color: #000; text-shadow: none; }
+					}
+					img.avatar { .defaults(); left: initial; top: 50px; display: block; margin: 0 auto;}
+				}
+			}
+			div.timeline {
+				.defaults();
+				max-width: 250px;
+				padding-left: 25px;
+				position: relative;
+				margin: 0 auto;
+			}
+			div.thumbnail { 
+				.defaults();
+				width: 90%;
+				margin: 0 auto 20px auto;
+				figure { .defaults(); }
+			}
+			footer {
+				.defaults();
+				div.container_16 {
+					div.grid_8 {
+						width: 98%;
+						clear:both;
+						&.social > ul.contact-list { float: none; padding: 0; margin: 0; }
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/*phone sizes
+@media screen and (max-width: 570px) {
+	html {
+		body{
+			header {
+				div.centered {
+					div.contact-info {
+						display: block;
+						left: 0;
+						top: 350px;
+						margin: 0 auto;
+						padding: 0;
+						width: 290px;
+						h1 { color: #000; text-shadow: none; }
+					}
+					img.avatar { left: 40%; }
+				}
+				div.resume-cta {
+					position: absolute;
+				}
+			}
+			div.timeline {
+				top: 450px;
+				max-width: 250px;
+				padding-left: 25px;
+				left: 10px;
+
+			}
+			div.thumbnail { 
+				height: 100%;
+				margin-top: 100px;
+				figure { position: absolute; bottom: 0; }
+			}
+			footer {
+				height: auto;
+				position: relative;
+				margin-top: 50px;
+				div.container_16 {
+					div.grid_8 {
+						width: 98%;
+
+						&.social > ul.contact-list { float: none; padding: 0; margin: 0; }
+					}
+				}
+			}
+		}
+	}
+}
+*/
