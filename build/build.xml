@@ -18,6 +18,9 @@
 		<copy todir="${STAGING_DIRECTORY}/fonts">
 			<fileset dir="${PROJECT_DIRECTORY}/src/fonts"/> 
 		</copy>
+		<copy todir="${STAGING_DIRECTORY}/pdf">
+			<fileset dir="${PROJECT_DIRECTORY}/src/pdf"/> 
+		</copy>
         <echo message="Staging complete"/>
 	</target> 
 	<target name="less">
@@ -28,19 +31,28 @@
 			<fileset dir="${PROJECT_DIRECTORY}/src/less/styles" includes="*.less"/>
 			<redirector>
 				<outputmapper from="*.less" id="out" to="${CSS_OUTPUT_STAGING}/main.css" type="glob"/>
-			</redirector>	
+			</redirector>
 		</apply>
 		<echo message="LESS Compilation Complete"/>
 	</target>
 	
-    <target name="release"> 
+    <target name="release" depends="stage"> 
     	<echo message="Copying client files to release directory..."/>
     	<copy todir="${RELEASE_DIRECTORY}/images">
     		<fileset dir="${PROJECT_DIRECTORY}/src/images"/>
     	</copy> 
     	<copy todir="${RELEASE_DIRECTORY}/js">
-    		<fileset dir="${PROJECT_DIRECTORY}/src/js" excludes="**/thinq/"/> 
+    		<fileset dir="${PROJECT_DIRECTORY}/src/js"/> 
+    	</copy> 
+    	<copy todir="${RELEASE_DIRECTORY}/fonts">
+    		<fileset dir="${PROJECT_DIRECTORY}/src/fonts"/> 
     	</copy>  
+    	<copy todir="${STAGING_DIRECTORY}/css">
+			<fileset dir="${PROJECT_DIRECTORY}/src/css"/>
+		</copy>
+		<copy todir="${STAGING_DIRECTORY}/pdf">
+			<fileset dir="${PROJECT_DIRECTORY}/src/pdf"/> 
+		</copy>
     	<exec dir="${PROJECT_DIRECTORY}/bin" vmlauncher="false" executable="/bin/bash">
     		<arg line="${EMS_COMPRESSOR}
     			${YUI_COMPRESSOR}
@@ -53,7 +65,6 @@
     			${COMPRESSOR_CSS_ROOT}
     			"/>
     	</exec>
-    	
         <echo message="Release complete... remember to commit your modifications to SVN and update the server!"/>
 	</target> 
 </project>

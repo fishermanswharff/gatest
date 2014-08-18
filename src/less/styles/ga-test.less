@@ -4,9 +4,8 @@
 @import "../mixins/retina.less";
 @import "../layout/grid.less";
 @import "../fontawesome/font-awesome.less";
-@import "font-face.less";
 @import "../vendor/carousel.less";
-
+@import "../layout/responsive.less";
 
 html,body { .defaults(); height: 100%; }
 html{
@@ -147,7 +146,7 @@ html{
 				div.carousel-inner {
 					div.item {
 						width: 100%;
-						
+
 						&.active {}
 						img {
 							width: 100%;
@@ -190,6 +189,7 @@ html{
 		color: @white;
 		ul.contact-list {
 			list-style:none;
+			float: right;
 			li{	
 				width: 40px;
 				height: 40px;
